@@ -1,0 +1,132 @@
+# ==============================================================================
+# Environment & Secrets (Never commit credentials)
+# ==============================================================================
+.env
+*.env
+.env.*
+.env.local
+secrets/
+
+# ==============================================================================
+# Python & Testing Artifacts
+# ==============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual Environments
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ==============================================================================
+# Binaries, Executables & Local Toolchains
+# ==============================================================================
+tools/
+*.exe
+*.dll
+*.dylib
+*.bin
+
+# ==============================================================================
+# LaTeX Auxiliary & Build Files
+# ==============================================================================
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+*.xdv
+*.nav
+*.snm
+*.vrb
+*.bcf
+*.run.xml
+
+# ==============================================================================
+# Documents, Reports & Drafts (Ignore root documents, except output/ folder)
+# ==============================================================================
+*.tex
+*.pdf
+*.docx
+*.doc
+
+# Whitelist/allow output directory
+!output/
+!output/**
+
+# ==============================================================================
+# Scratch & Intermediate Folders
+# ==============================================================================
+scratch/
+runs/
+.reentry/
+
+# ==============================================================================
+# Logs & Process Output
+# ==============================================================================
+*.log
+err.log
+out.log
+
+# ==============================================================================
+# Temporary Lock Files & Archives
+# ==============================================================================
+~$*
+*.tmp
+*.temp
+*.zip
+*.tar.gz
+*.rar
+
+# ==============================================================================
+# Operating System & IDE Files
+# ==============================================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini

@@ -1,0 +1,21 @@
+{
+  "dataset": "gsm8k",
+  "config": "main",
+  "source_split": "train",
+  "limit": 200,
+  "initial_samples": 3,
+  "additional_samples": 2,
+  "temperature": 0.7,
+  "max_new_tokens": 256,
+  "seed": 13,
+  "train_fraction": 0.6,
+  "validation_fraction": 0.2,
+  "test_fraction": 0.2,
+  "tie_break": "first_occurrence_among_tied_answers",
+  "prediction_features_exclude": [
+    "additional sample outputs",
+    "gold answer",
+    "correctness labels",
+    "post-action selected answer"
+  ]
+}

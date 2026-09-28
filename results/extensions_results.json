@@ -1,0 +1,36 @@
+{
+  "sc4": {
+    "accuracy": 0.667,
+    "mean_calls": 4.0,
+    "mean_tokens": 940.0,
+    "early_exits": 0,
+    "total_latency_seconds": 111.04
+  },
+  "trace4": {
+    "accuracy": 0.667,
+    "mean_calls": 2.0,
+    "mean_tokens": 471.7,
+    "early_exits": 3,
+    "total_latency_seconds": 0.0,
+    "call_reduction_pct": 50.0,
+    "token_reduction_pct": 49.8
+  },
+  "ext1_streaming": {
+    "accuracy": 0.667,
+    "mean_calls": 2.0,
+    "mean_tokens": 474.3,
+    "early_exits": 3,
+    "total_latency_seconds": 88.0,
+    "call_reduction_pct": 50.0,
+    "token_reduction_pct": 49.5
+  },
+  "ext2_weighted": {
+    "accuracy": 0.667,
+    "mean_calls": 2.0,
+    "mean_tokens": 471.7,
+    "early_exits": 3,
+    "total_latency_seconds": 0.0,
+    "call_reduction_pct": 50.0,
+    "token_reduction_pct": 49.8
+  }
+}

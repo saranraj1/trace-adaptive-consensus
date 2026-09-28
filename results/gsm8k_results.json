@@ -1,0 +1,1079 @@
+{
+  "summary": {
+    "greedy": {
+      "accuracy": 0.4,
+      "mean_calls": 1.0,
+      "total_calls": 20,
+      "mean_latency_seconds": 140.714
+    },
+    "sc4": {
+      "accuracy": 0.45,
+      "mean_calls": 4.0,
+      "total_calls": 80,
+      "mean_latency_seconds": 51.52
+    },
+    "sc8": {
+      "accuracy": 0.45,
+      "mean_calls": 8.0,
+      "total_calls": 160,
+      "mean_latency_seconds": 56.569
+    },
+    "trace4": {
+      "accuracy": 0.45,
+      "mean_calls": 2.8,
+      "total_calls": 56,
+      "mean_latency_seconds": 0.0,
+      "call_reduction_pct": 30.0
+    },
+    "trace8": {
+      "accuracy": 0.45,
+      "mean_calls": 4.0,
+      "total_calls": 80,
+      "mean_latency_seconds": 0.0,
+      "call_reduction_pct": 50.0
+    }
+  },
+  "per_problem_results": {
+    "greedy": {
+      "correct": 8,
+      "total_calls": 20,
+      "latencies": [
+        1.2678712999913841,
+        15.098964000004344,
+        14.238012399990112,
+        11.210620500001824,
+        15.199436599999899,
+        15.20152469999448,
+        8.162322599993786,
+        15.170704000003752,
+        12.105092700003297,
+        11.25993390000076,
+        15.086604799987981,
+        12.45781769999303,
+        12.165567499992903,
+        2567.397031600005,
+        11.217314499997883,
+        15.204729299992323,
+        15.23787280000397,
+        16.25299819999782,
+        15.17648380000901,
+        15.178407500003232
+      ],
+      "details": [
+        {
+          "problem_id": 1101,
+          "gold": "16",
+          "predicted": "4",
+          "correct": 0,
+          "calls": 1,
+          "agreement": 1.0,
+          "early_exit": false
+        },
+        {
+          "problem_id": 120,
+          "gold": "240",
+          "predicted": "240",
+          "correct": 1,
+          "calls": 1,
+          "agreement": 1.0,
+          "early_exit": false
+        },
+        {
+          "problem_id": 474,
+          "gold": "80",
+          "predicted": "80",
+          "correct": 1,
+          "calls": 1,
+          "agreement": 1.0,
+          "early_exit": false
+        },
+        {
+          "problem_id": 991,
+          "gold": "15",
+          "predicted": "75",
+          "correct": 0,
+          "calls": 1,
+          "agreement": 1.0,
+          "early_exit": false
+        },
+        {
+          "problem_id": 192,
+          "gold": "91",
+          "predicted": "30",
+          "correct": 0,
+          "calls": 1,
+          "agreement": 1.0,
+          "early_exit": false
+        },
+        {
+          "problem_id": 1020,
+          "gold": "22",
+          "predicted": "22",
+          "correct": 1,
+          "calls": 1,
+          "agreement": 1.0,
+          "early_exit": false
+        },
+        {
+          "problem_id": 350,
+          "gold": "8",
+          "predicted": "5",
+          "correct": 0,
+          "calls": 1,
+          "agreement": 1.0,
+          "early_exit": false
+        },
+        {
+          "problem_id": 480,
+          "gold": "11",
+          "predicted": "11",
+          "correct": 1,
+          "calls": 1,
+          "agreement": 1.0,
+          "early_exit": false
+        },
+        {
+          "problem_id": 883,
+          "gold": "25",
+          "predicted": "25",
+          "correct": 1,
+          "calls": 1,
+          "agreement": 1.0,
+          "early_exit": false
+        },
+        {
+          "problem_id": 1062,
+          "gold": "482",
+          "predicted": "6",
+          "correct": 0,
+          "calls": 1,
+          "agreement": 1.0,
+          "early_exit": false
+        },
+        {
+          "problem_id": 799,
+          "gold": "4",
+          "predicted": "4",
+          "correct": 1,
+          "calls": 1,
+          "agreement": 1.0,
+          "early_exit": false
+        },
+        {
+          "problem_id": 1257,
+          "gold": "14",
+          "predicted": "14",
+          "correct": 1,
+          "calls": 1,
+          "agreement": 1.0,
+          "early_exit": false
+        },
+        {
+          "problem_id": 1070,
+          "gold": "18",
+          "predicted": "4",
+          "correct": 0,
+          "calls": 1,
+          "agreement": 1.0,
+          "early_exit": false
+        },
+        {
+          "problem_id": 1234,
+          "gold": "12",
+          "predicted": "12",
+          "correct": 1,
+          "calls": 1,
+          "agreement": 1.0,
+          "early_exit": false
+        },
+        {
+          "problem_id": 590,
+          "gold": "319",
+          "predicted": "3",
+          "correct": 0,
+          "calls": 1,
+          "agreement": 1.0,
+          "early_exit": false
+        },
+        {
+          "problem_id": 446,
+          "gold": "2",
+          "predicted": "5",
+          "correct": 0,
+          "calls": 1,
+          "agreement": 1.0,
+          "early_exit": false
+        },
+        {
+          "problem_id": 1302,
+          "gold": "72",
+          "predicted": "4",
+          "correct": 0,
+          "calls": 1,
+          "agreement": 1.0,
+          "early_exit": false
+        },
+        {
+          "problem_id": 265,
+          "gold": "9500",
+          "predicted": "4",
+          "correct": 0,
+          "calls": 1,
+          "agreement": 1.0,
+          "early_exit": false
+        },
+        {
+          "problem_id": 175,
+          "gold": "15",
+          "predicted": "5",
+          "correct": 0,
+          "calls": 1,
+          "agreement": 1.0,
+          "early_exit": false
+        },
+        {
+          "problem_id": 554,
+          "gold": "54",
+          "predicted": "1",
+          "correct": 0,
+          "calls": 1,
+          "agreement": 1.0,
+          "early_exit": false
+        }
+      ]
+    },
+    "sc4": {
+      "correct": 9,
+      "total_calls": 80,
+      "latencies": [
+        3.8544776999915484,
+        53.852908900007606,
+        52.69785189999675,
+        61.87689849999151,
+        60.860155200003646,
+        48.4354941000056,
+        61.193404200006626,
+        55.70686500000011,
+        44.17056610000145,
+        60.86370360000001,
+        48.566550500007,
+        52.60384609999892,
+        61.73649709999154,
+        3.2916793000040343,
+        61.94545849999122,
+        51.761264799992205,
+        62.14019869999902,
+        60.82418630000029,
+        62.09844620000513,
+        61.929112599988
+      ],
+      "details": [
+        {
+          "problem_id": 1101,
+          "gold": "16",
+          "predicted": "52",
+          "correct": 0,
+          "calls": 4,
+          "agreement": 1.0,
+          "early_exit": false
+        },
+        {
+          "problem_id": 120,
+          "gold": "240",
+          "predicted": "240",
+          "correct": 1,
+          "calls": 4,
+          "agreement": 1.0,
+          "early_exit": false
+        },
+        {
+          "problem_id": 474,
+          "gold": "80",
+          "predicted": "80",
+          "correct": 1,
+          "calls": 4,
+          "agreement": 1.0,
+          "early_exit": false
+        },
+        {
+          "problem_id": 991,
+          "gold": "15",
+          "predicted": "75",
+          "correct": 0,
+          "calls": 4,
+          "agreement": 0.5,
+          "early_exit": false
+        },
+        {
+          "problem_id": 192,
+          "gold": "91",
+          "predicted": "30",
+          "correct": 0,
+          "calls": 4,
+          "agreement": 0.5,
+          "early_exit": false
+        },
+        {
+          "problem_id": 1020,
+          "gold": "22",
+          "predicted": "22",
+          "correct": 1,
+          "calls": 4,
+          "agreement": 1.0,
+          "early_exit": false
+        },
+        {
+          "problem_id": 350,
+          "gold": "8",
+          "predicted": "2",
+          "correct": 0,
+          "calls": 4,
+          "agreement": 0.75,
+          "early_exit": false
+        },
+        {
+          "problem_id": 480,
+          "gold": "11",
+          "predicted": "11",
+          "correct": 1,
+          "calls": 4,
+          "agreement": 1.0,
+          "early_exit": false
+        },
+        {
+          "problem_id": 883,
+          "gold": "25",
+          "predicted": "25",
+          "correct": 1,
+          "calls": 4,
+          "agreement": 1.0,
+          "early_exit": false
+        },
+        {
+          "problem_id": 1062,
+          "gold": "482",
+          "predicted": "2",
+          "correct": 0,
+          "calls": 4,
+          "agreement": 0.25,
+          "early_exit": false
+        },
+        {
+          "problem_id": 799,
+          "gold": "4",
+          "predicted": "4",
+          "correct": 1,
+          "calls": 4,
+          "agreement": 1.0,
+          "early_exit": false
+        },
+        {
+          "problem_id": 1257,
+          "gold": "14",
+          "predicted": "14",
+          "correct": 1,
+          "calls": 4,
+          "agreement": 1.0,
+          "early_exit": false
+        },
+        {
+          "problem_id": 1070,
+          "gold": "18",
+          "predicted": "4",
+          "correct": 0,
+          "calls": 4,
+          "agreement": 0.5,
+          "early_exit": false
+        },
+        {
+          "problem_id": 1234,
+          "gold": "12",
+          "predicted": "12",
+          "correct": 1,
+          "calls": 4,
+          "agreement": 1.0,
+          "early_exit": false
+        },
+        {
+          "problem_id": 590,
+          "gold": "319",
+          "predicted": "3",
+          "correct": 0,
+          "calls": 4,
+          "agreement": 0.25,
+          "early_exit": false
+        },
+        {
+          "problem_id": 446,
+          "gold": "2",
+          "predicted": "2",
+          "correct": 1,
+          "calls": 4,
+          "agreement": 0.75,
+          "early_exit": false
+        },
+        {
+          "problem_id": 1302,
+          "gold": "72",
+          "predicted": "4",
+          "correct": 0,
+          "calls": 4,
+          "agreement": 0.5,
+          "early_exit": false
+        },
+        {
+          "problem_id": 265,
+          "gold": "9500",
+          "predicted": "42",
+          "correct": 0,
+          "calls": 4,
+          "agreement": 0.5,
+          "early_exit": false
+        },
+        {
+          "problem_id": 175,
+          "gold": "15",
+          "predicted": "4",
+          "correct": 0,
+          "calls": 4,
+          "agreement": 0.75,
+          "early_exit": false
+        },
+        {
+          "problem_id": 554,
+          "gold": "54",
+          "predicted": "34",
+          "correct": 0,
+          "calls": 4,
+          "agreement": 0.5,
+          "early_exit": false
+        }
+      ]
+    },
+    "sc8": {
+      "correct": 9,
+      "total_calls": 160,
+      "latencies": [
+        63.32052470000053,
+        55.72142799998983,
+        48.40670429999591,
+        62.17662569999811,
+        61.89285099999688,
+        43.22568790000514,
+        61.849099800005206,
+        55.20585849999043,
+        47.75248029999784,
+        61.960615499992855,
+        45.36215880000964,
+        54.75281499999983,
+        61.84104080000543,
+        40.8510826999991,
+        61.296196499999496,
+        59.905102199991234,
+        60.90489479999815,
+        61.74895589999505,
+        61.28227809999953,
+        61.92107910000777
+      ],
+      "details": [
+        {
+          "problem_id": 1101,
+          "gold": "16",
+          "predicted": "52",
+          "correct": 0,
+          "calls": 8,
+          "agreement": 1.0,
+          "early_exit": false
+        },
+        {
+          "problem_id": 120,
+          "gold": "240",
+          "predicted": "240",
+          "correct": 1,
+          "calls": 8,
+          "agreement": 1.0,
+          "early_exit": false
+        },
+        {
+          "problem_id": 474,
+          "gold": "80",
+          "predicted": "80",
+          "correct": 1,
+          "calls": 8,
+          "agreement": 1.0,
+          "early_exit": false
+        },
+        {
+          "problem_id": 991,
+          "gold": "15",
+          "predicted": "75",
+          "correct": 0,
+          "calls": 8,
+          "agreement": 0.5,
+          "early_exit": false
+        },
+        {
+          "problem_id": 192,
+          "gold": "91",
+          "predicted": "30",
+          "correct": 0,
+          "calls": 8,
+          "agreement": 0.25,
+          "early_exit": false
+        },
+        {
+          "problem_id": 1020,
+          "gold": "22",
+          "predicted": "22",
+          "correct": 1,
+          "calls": 8,
+          "agreement": 1.0,
+          "early_exit": false
+        },
+        {
+          "problem_id": 350,
+          "gold": "8",
+          "predicted": "2",
+          "correct": 0,
+          "calls": 8,
+          "agreement": 0.75,
+          "early_exit": false
+        },
+        {
+          "problem_id": 480,
+          "gold": "11",
+          "predicted": "11",
+          "correct": 1,
+          "calls": 8,
+          "agreement": 1.0,
+          "early_exit": false
+        },
+        {
+          "problem_id": 883,
+          "gold": "25",
+          "predicted": "25",
+          "correct": 1,
+          "calls": 8,
+          "agreement": 1.0,
+          "early_exit": false
+        },
+        {
+          "problem_id": 1062,
+          "gold": "482",
+          "predicted": "120",
+          "correct": 0,
+          "calls": 8,
+          "agreement": 0.25,
+          "early_exit": false
+        },
+        {
+          "problem_id": 799,
+          "gold": "4",
+          "predicted": "4",
+          "correct": 1,
+          "calls": 8,
+          "agreement": 1.0,
+          "early_exit": false
+        },
+        {
+          "problem_id": 1257,
+          "gold": "14",
+          "predicted": "14",
+          "correct": 1,
+          "calls": 8,
+          "agreement": 1.0,
+          "early_exit": false
+        },
+        {
+          "problem_id": 1070,
+          "gold": "18",
+          "predicted": "4",
+          "correct": 0,
+          "calls": 8,
+          "agreement": 0.5,
+          "early_exit": false
+        },
+        {
+          "problem_id": 1234,
+          "gold": "12",
+          "predicted": "12",
+          "correct": 1,
+          "calls": 8,
+          "agreement": 1.0,
+          "early_exit": false
+        },
+        {
+          "problem_id": 590,
+          "gold": "319",
+          "predicted": "18",
+          "correct": 0,
+          "calls": 8,
+          "agreement": 0.5,
+          "early_exit": false
+        },
+        {
+          "problem_id": 446,
+          "gold": "2",
+          "predicted": "2",
+          "correct": 1,
+          "calls": 8,
+          "agreement": 0.625,
+          "early_exit": false
+        },
+        {
+          "problem_id": 1302,
+          "gold": "72",
+          "predicted": "4",
+          "correct": 0,
+          "calls": 8,
+          "agreement": 0.5,
+          "early_exit": false
+        },
+        {
+          "problem_id": 265,
+          "gold": "9500",
+          "predicted": "42",
+          "correct": 0,
+          "calls": 8,
+          "agreement": 0.25,
+          "early_exit": false
+        },
+        {
+          "problem_id": 175,
+          "gold": "15",
+          "predicted": "4",
+          "correct": 0,
+          "calls": 8,
+          "agreement": 0.5,
+          "early_exit": false
+        },
+        {
+          "problem_id": 554,
+          "gold": "54",
+          "predicted": "3",
+          "correct": 0,
+          "calls": 8,
+          "agreement": 0.5,
+          "early_exit": false
+        }
+      ]
+    },
+    "trace4": {
+      "correct": 9,
+      "total_calls": 56,
+      "latencies": [
+        6.0699996538460255e-05,
+        0.0006247000128496438,
+        4.700000863522291e-05,
+        0.001003899989882484,
+        8.169999637175351e-05,
+        6.400000711437315e-05,
+        7.730000652372837e-05,
+        5.360000068321824e-05,
+        4.630000330507755e-05,
+        9.109999518841505e-05,
+        4.8900008550845087e-05,
+        7.870000263210386e-05,
+        0.00010449999535921961,
+        8.350001007784158e-05,
+        7.949999417178333e-05,
+        6.170000415295362e-05,
+        4.5599997974932194e-05,
+        0.00012299999070819467,
+        9.100000897888094e-05,
+        0.00014640000881627202
+      ],
+      "details": [
+        {
+          "problem_id": 1101,
+          "gold": "16",
+          "predicted": "52",
+          "correct": 0,
+          "calls": 2,
+          "agreement": 1.0,
+          "early_exit": true
+        },
+        {
+          "problem_id": 120,
+          "gold": "240",
+          "predicted": "240",
+          "correct": 1,
+          "calls": 2,
+          "agreement": 1.0,
+          "early_exit": true
+        },
+        {
+          "problem_id": 474,
+          "gold": "80",
+          "predicted": "80",
+          "correct": 1,
+          "calls": 2,
+          "agreement": 1.0,
+          "early_exit": true
+        },
+        {
+          "problem_id": 991,
+          "gold": "15",
+          "predicted": "75",
+          "correct": 0,
+          "calls": 4,
+          "agreement": 0.5,
+          "early_exit": false
+        },
+        {
+          "problem_id": 192,
+          "gold": "91",
+          "predicted": "30",
+          "correct": 0,
+          "calls": 4,
+          "agreement": 0.5,
+          "early_exit": false
+        },
+        {
+          "problem_id": 1020,
+          "gold": "22",
+          "predicted": "22",
+          "correct": 1,
+          "calls": 2,
+          "agreement": 1.0,
+          "early_exit": true
+        },
+        {
+          "problem_id": 350,
+          "gold": "8",
+          "predicted": "2",
+          "correct": 0,
+          "calls": 4,
+          "agreement": 0.75,
+          "early_exit": false
+        },
+        {
+          "problem_id": 480,
+          "gold": "11",
+          "predicted": "11",
+          "correct": 1,
+          "calls": 2,
+          "agreement": 1.0,
+          "early_exit": true
+        },
+        {
+          "problem_id": 883,
+          "gold": "25",
+          "predicted": "25",
+          "correct": 1,
+          "calls": 2,
+          "agreement": 1.0,
+          "early_exit": true
+        },
+        {
+          "problem_id": 1062,
+          "gold": "482",
+          "predicted": "2",
+          "correct": 0,
+          "calls": 4,
+          "agreement": 0.25,
+          "early_exit": false
+        },
+        {
+          "problem_id": 799,
+          "gold": "4",
+          "predicted": "4",
+          "correct": 1,
+          "calls": 2,
+          "agreement": 1.0,
+          "early_exit": true
+        },
+        {
+          "problem_id": 1257,
+          "gold": "14",
+          "predicted": "14",
+          "correct": 1,
+          "calls": 2,
+          "agreement": 1.0,
+          "early_exit": true
+        },
+        {
+          "problem_id": 1070,
+          "gold": "18",
+          "predicted": "4",
+          "correct": 0,
+          "calls": 4,
+          "agreement": 0.5,
+          "early_exit": false
+        },
+        {
+          "problem_id": 1234,
+          "gold": "12",
+          "predicted": "12",
+          "correct": 1,
+          "calls": 2,
+          "agreement": 1.0,
+          "early_exit": true
+        },
+        {
+          "problem_id": 590,
+          "gold": "319",
+          "predicted": "3",
+          "correct": 0,
+          "calls": 4,
+          "agreement": 0.25,
+          "early_exit": false
+        },
+        {
+          "problem_id": 446,
+          "gold": "2",
+          "predicted": "2",
+          "correct": 1,
+          "calls": 2,
+          "agreement": 1.0,
+          "early_exit": true
+        },
+        {
+          "problem_id": 1302,
+          "gold": "72",
+          "predicted": "4",
+          "correct": 0,
+          "calls": 2,
+          "agreement": 1.0,
+          "early_exit": true
+        },
+        {
+          "problem_id": 265,
+          "gold": "9500",
+          "predicted": "42",
+          "correct": 0,
+          "calls": 2,
+          "agreement": 1.0,
+          "early_exit": true
+        },
+        {
+          "problem_id": 175,
+          "gold": "15",
+          "predicted": "4",
+          "correct": 0,
+          "calls": 4,
+          "agreement": 0.75,
+          "early_exit": false
+        },
+        {
+          "problem_id": 554,
+          "gold": "54",
+          "predicted": "34",
+          "correct": 0,
+          "calls": 4,
+          "agreement": 0.5,
+          "early_exit": false
+        }
+      ]
+    },
+    "trace8": {
+      "correct": 9,
+      "total_calls": 80,
+      "latencies": [
+        3.4900003811344504e-05,
+        0.0004425000079208985,
+        2.7000001864507794e-05,
+        0.00013889999536331743,
+        0.0001044000091496855,
+        3.169999399688095e-05,
+        5.4800009820610285e-05,
+        2.9000002541579306e-05,
+        2.6699999580159783e-05,
+        0.00013190000026952475,
+        2.6299996534362435e-05,
+        3.959999594371766e-05,
+        0.00014540000120177865,
+        5.60000044060871e-05,
+        0.0001171000039903447,
+        3.880000440403819e-05,
+        2.6299996534362435e-05,
+        6.27999979769811e-05,
+        5.9300000430084765e-05,
+        0.00010840001050382853
+      ],
+      "details": [
+        {
+          "problem_id": 1101,
+          "gold": "16",
+          "predicted": "52",
+          "correct": 0,
+          "calls": 2,
+          "agreement": 1.0,
+          "early_exit": true
+        },
+        {
+          "problem_id": 120,
+          "gold": "240",
+          "predicted": "240",
+          "correct": 1,
+          "calls": 2,
+          "agreement": 1.0,
+          "early_exit": true
+        },
+        {
+          "problem_id": 474,
+          "gold": "80",
+          "predicted": "80",
+          "correct": 1,
+          "calls": 2,
+          "agreement": 1.0,
+          "early_exit": true
+        },
+        {
+          "problem_id": 991,
+          "gold": "15",
+          "predicted": "75",
+          "correct": 0,
+          "calls": 8,
+          "agreement": 0.5,
+          "early_exit": false
+        },
+        {
+          "problem_id": 192,
+          "gold": "91",
+          "predicted": "30",
+          "correct": 0,
+          "calls": 8,
+          "agreement": 0.25,
+          "early_exit": false
+        },
+        {
+          "problem_id": 1020,
+          "gold": "22",
+          "predicted": "22",
+          "correct": 1,
+          "calls": 2,
+          "agreement": 1.0,
+          "early_exit": true
+        },
+        {
+          "problem_id": 350,
+          "gold": "8",
+          "predicted": "2",
+          "correct": 0,
+          "calls": 4,
+          "agreement": 0.75,
+          "early_exit": true
+        },
+        {
+          "problem_id": 480,
+          "gold": "11",
+          "predicted": "11",
+          "correct": 1,
+          "calls": 2,
+          "agreement": 1.0,
+          "early_exit": true
+        },
+        {
+          "problem_id": 883,
+          "gold": "25",
+          "predicted": "25",
+          "correct": 1,
+          "calls": 2,
+          "agreement": 1.0,
+          "early_exit": true
+        },
+        {
+          "problem_id": 1062,
+          "gold": "482",
+          "predicted": "120",
+          "correct": 0,
+          "calls": 8,
+          "agreement": 0.25,
+          "early_exit": false
+        },
+        {
+          "problem_id": 799,
+          "gold": "4",
+          "predicted": "4",
+          "correct": 1,
+          "calls": 2,
+          "agreement": 1.0,
+          "early_exit": true
+        },
+        {
+          "problem_id": 1257,
+          "gold": "14",
+          "predicted": "14",
+          "correct": 1,
+          "calls": 2,
+          "agreement": 1.0,
+          "early_exit": true
+        },
+        {
+          "problem_id": 1070,
+          "gold": "18",
+          "predicted": "4",
+          "correct": 0,
+          "calls": 8,
+          "agreement": 0.5,
+          "early_exit": false
+        },
+        {
+          "problem_id": 1234,
+          "gold": "12",
+          "predicted": "12",
+          "correct": 1,
+          "calls": 2,
+          "agreement": 1.0,
+          "early_exit": true
+        },
+        {
+          "problem_id": 590,
+          "gold": "319",
+          "predicted": "18",
+          "correct": 0,
+          "calls": 8,
+          "agreement": 0.5,
+          "early_exit": false
+        },
+        {
+          "problem_id": 446,
+          "gold": "2",
+          "predicted": "2",
+          "correct": 1,
+          "calls": 2,
+          "agreement": 1.0,
+          "early_exit": true
+        },
+        {
+          "problem_id": 1302,
+          "gold": "72",
+          "predicted": "4",
+          "correct": 0,
+          "calls": 2,
+          "agreement": 1.0,
+          "early_exit": true
+        },
+        {
+          "problem_id": 265,
+          "gold": "9500",
+          "predicted": "42",
+          "correct": 0,
+          "calls": 2,
+          "agreement": 1.0,
+          "early_exit": true
+        },
+        {
+          "problem_id": 175,
+          "gold": "15",
+          "predicted": "4",
+          "correct": 0,
+          "calls": 4,
+          "agreement": 0.75,
+          "early_exit": true
+        },
+        {
+          "problem_id": 554,
+          "gold": "54",
+          "predicted": "3",
+          "correct": 0,
+          "calls": 8,
+          "agreement": 0.5,
+          "early_exit": false
+        }
+      ]
+    }
+  },
+  "n_tasks": 20
+}

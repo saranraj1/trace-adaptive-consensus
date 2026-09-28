@@ -1,0 +1,1087 @@
+{
+  "summary": {
+    "greedy": {
+      "success_rate": 1.0,
+      "mean_calls": 5.667,
+      "mean_steps": 5.67
+    },
+    "sc4": {
+      "success_rate": 1.0,
+      "mean_calls": 22.667,
+      "mean_steps": 5.67
+    },
+    "sc8": {
+      "success_rate": 1.0,
+      "mean_calls": 45.333,
+      "mean_steps": 5.67
+    },
+    "trace4": {
+      "success_rate": 1.0,
+      "mean_calls": 12.0,
+      "mean_steps": 5.67,
+      "call_reduction_pct": 47.1
+    },
+    "trace8": {
+      "success_rate": 1.0,
+      "mean_calls": 13.333,
+      "mean_steps": 5.67,
+      "call_reduction_pct": 70.6
+    }
+  },
+  "seed_runs": [
+    {
+      "summary": {
+        "greedy": {
+          "success_rate": 1.0,
+          "mean_calls": 5.667,
+          "total_calls": 17,
+          "mean_steps": 5.67
+        },
+        "sc4": {
+          "success_rate": 1.0,
+          "mean_calls": 22.667,
+          "total_calls": 68,
+          "mean_steps": 5.67
+        },
+        "sc8": {
+          "success_rate": 1.0,
+          "mean_calls": 45.333,
+          "total_calls": 136,
+          "mean_steps": 5.67
+        },
+        "trace4": {
+          "success_rate": 1.0,
+          "mean_calls": 12.0,
+          "total_calls": 36,
+          "mean_steps": 5.67,
+          "call_reduction_pct": 47.1
+        },
+        "trace8": {
+          "success_rate": 1.0,
+          "mean_calls": 13.333,
+          "total_calls": 40,
+          "mean_steps": 5.67,
+          "call_reduction_pct": 70.6
+        }
+      },
+      "per_episode_results": {
+        "greedy": {
+          "successes": 3,
+          "total_calls": 17,
+          "total_steps": 17,
+          "episodes": [
+            {
+              "task_id": "minihouse_0",
+              "success": true,
+              "steps": 6,
+              "calls": 6,
+              "step_details": [
+                {
+                  "step": 1,
+                  "action": "go to hallway",
+                  "calls": 1,
+                  "agreement": 1.0
+                },
+                {
+                  "step": 2,
+                  "action": "go to bathroom",
+                  "calls": 1,
+                  "agreement": 1.0
+                },
+                {
+                  "step": 3,
+                  "action": "take towel from towel_rack",
+                  "calls": 1,
+                  "agreement": 1.0
+                },
+                {
+                  "step": 4,
+                  "action": "go to hallway",
+                  "calls": 1,
+                  "agreement": 1.0
+                },
+                {
+                  "step": 5,
+                  "action": "go to office",
+                  "calls": 1,
+                  "agreement": 1.0
+                },
+                {
+                  "step": 6,
+                  "action": "put towel in chair",
+                  "calls": 1,
+                  "agreement": 1.0
+                }
+              ]
+            },
+            {
+              "task_id": "minihouse_1",
+              "success": true,
+              "steps": 5,
+              "calls": 5,
+              "step_details": [
+                {
+                  "step": 1,
+                  "action": "go to living_room",
+                  "calls": 1,
+                  "agreement": 1.0
+                },
+                {
+                  "step": 2,
+                  "action": "take book from coffee_table",
+                  "calls": 1,
+                  "agreement": 1.0
+                },
+                {
+                  "step": 3,
+                  "action": "go to bedroom",
+                  "calls": 1,
+                  "agreement": 1.0
+                },
+                {
+                  "step": 4,
+                  "action": "open drawer",
+                  "calls": 1,
+                  "agreement": 1.0
+                },
+                {
+                  "step": 5,
+                  "action": "put book in drawer",
+                  "calls": 1,
+                  "agreement": 1.0
+                }
+              ]
+            },
+            {
+              "task_id": "minihouse_2",
+              "success": true,
+              "steps": 6,
+              "calls": 6,
+              "step_details": [
+                {
+                  "step": 1,
+                  "action": "go to hallway",
+                  "calls": 1,
+                  "agreement": 1.0
+                },
+                {
+                  "step": 2,
+                  "action": "go to bathroom",
+                  "calls": 1,
+                  "agreement": 1.0
+                },
+                {
+                  "step": 3,
+                  "action": "take towel from towel_rack",
+                  "calls": 1,
+                  "agreement": 1.0
+                },
+                {
+                  "step": 4,
+                  "action": "go to hallway",
+                  "calls": 1,
+                  "agreement": 1.0
+                },
+                {
+                  "step": 5,
+                  "action": "go to office",
+                  "calls": 1,
+                  "agreement": 1.0
+                },
+                {
+                  "step": 6,
+                  "action": "put towel in desk",
+                  "calls": 1,
+                  "agreement": 1.0
+                }
+              ]
+            }
+          ],
+          "step_agreements": [
+            {
+              "agreement": 1.0,
+              "eventual_success": true
+            },
+            {
+              "agreement": 1.0,
+              "eventual_success": true
+            },
+            {
+              "agreement": 1.0,
+              "eventual_success": true
+            },
+            {
+              "agreement": 1.0,
+              "eventual_success": true
+            },
+            {
+              "agreement": 1.0,
+              "eventual_success": true
+            },
+            {
+              "agreement": 1.0,
+              "eventual_success": true
+            },
+            {
+              "agreement": 1.0,
+              "eventual_success": true
+            },
+            {
+              "agreement": 1.0,
+              "eventual_success": true
+            },
+            {
+              "agreement": 1.0,
+              "eventual_success": true
+            },
+            {
+              "agreement": 1.0,
+              "eventual_success": true
+            },
+            {
+              "agreement": 1.0,
+              "eventual_success": true
+            },
+            {
+              "agreement": 1.0,
+              "eventual_success": true
+            },
+            {
+              "agreement": 1.0,
+              "eventual_success": true
+            },
+            {
+              "agreement": 1.0,
+              "eventual_success": true
+            },
+            {
+              "agreement": 1.0,
+              "eventual_success": true
+            },
+            {
+              "agreement": 1.0,
+              "eventual_success": true
+            },
+            {
+              "agreement": 1.0,
+              "eventual_success": true
+            }
+          ]
+        },
+        "sc4": {
+          "successes": 3,
+          "total_calls": 68,
+          "total_steps": 17,
+          "episodes": [
+            {
+              "task_id": "minihouse_0",
+              "success": true,
+              "steps": 6,
+              "calls": 24,
+              "step_details": [
+                {
+                  "step": 1,
+                  "action": "go to hallway",
+                  "calls": 4,
+                  "agreement": 1.0
+                },
+                {
+                  "step": 2,
+                  "action": "go to bathroom",
+                  "calls": 4,
+                  "agreement": 1.0
+                },
+                {
+                  "step": 3,
+                  "action": "take towel from towel_rack",
+                  "calls": 4,
+                  "agreement": 1.0
+                },
+                {
+                  "step": 4,
+                  "action": "go to hallway",
+                  "calls": 4,
+                  "agreement": 1.0
+                },
+                {
+                  "step": 5,
+                  "action": "go to office",
+                  "calls": 4,
+                  "agreement": 0.5
+                },
+                {
+                  "step": 6,
+                  "action": "put towel in chair",
+                  "calls": 4,
+                  "agreement": 1.0
+                }
+              ]
+            },
+            {
+              "task_id": "minihouse_1",
+              "success": true,
+              "steps": 5,
+              "calls": 20,
+              "step_details": [
+                {
+                  "step": 1,
+                  "action": "go to living_room",
+                  "calls": 4,
+                  "agreement": 1.0
+                },
+                {
+                  "step": 2,
+                  "action": "take book from coffee_table",
+                  "calls": 4,
+                  "agreement": 1.0
+                },
+                {
+                  "step": 3,
+                  "action": "go to bedroom",
+                  "calls": 4,
+                  "agreement": 1.0
+                },
+                {
+                  "step": 4,
+                  "action": "open drawer",
+                  "calls": 4,
+                  "agreement": 1.0
+                },
+                {
+                  "step": 5,
+                  "action": "put book in drawer",
+                  "calls": 4,
+                  "agreement": 1.0
+                }
+              ]
+            },
+            {
+              "task_id": "minihouse_2",
+              "success": true,
+              "steps": 6,
+              "calls": 24,
+              "step_details": [
+                {
+                  "step": 1,
+                  "action": "go to hallway",
+                  "calls": 4,
+                  "agreement": 1.0
+                },
+                {
+                  "step": 2,
+                  "action": "go to bathroom",
+                  "calls": 4,
+                  "agreement": 0.75
+                },
+                {
+                  "step": 3,
+                  "action": "take towel from towel_rack",
+                  "calls": 4,
+                  "agreement": 1.0
+                },
+                {
+                  "step": 4,
+                  "action": "go to hallway",
+                  "calls": 4,
+                  "agreement": 1.0
+                },
+                {
+                  "step": 5,
+                  "action": "go to office",
+                  "calls": 4,
+                  "agreement": 1.0
+                },
+                {
+                  "step": 6,
+                  "action": "put towel in desk",
+                  "calls": 4,
+                  "agreement": 1.0
+                }
+              ]
+            }
+          ],
+          "step_agreements": [
+            {
+              "agreement": 1.0,
+              "eventual_success": true
+            },
+            {
+              "agreement": 1.0,
+              "eventual_success": true
+            },
+            {
+              "agreement": 1.0,
+              "eventual_success": true
+            },
+            {
+              "agreement": 1.0,
+              "eventual_success": true
+            },
+            {
+              "agreement": 0.5,
+              "eventual_success": true
+            },
+            {
+              "agreement": 1.0,
+              "eventual_success": true
+            },
+            {
+              "agreement": 1.0,
+              "eventual_success": true
+            },
+            {
+              "agreement": 1.0,
+              "eventual_success": true
+            },
+            {
+              "agreement": 1.0,
+              "eventual_success": true
+            },
+            {
+              "agreement": 1.0,
+              "eventual_success": true
+            },
+            {
+              "agreement": 1.0,
+              "eventual_success": true
+            },
+            {
+              "agreement": 1.0,
+              "eventual_success": true
+            },
+            {
+              "agreement": 0.75,
+              "eventual_success": true
+            },
+            {
+              "agreement": 1.0,
+              "eventual_success": true
+            },
+            {
+              "agreement": 1.0,
+              "eventual_success": true
+            },
+            {
+              "agreement": 1.0,
+              "eventual_success": true
+            },
+            {
+              "agreement": 1.0,
+              "eventual_success": true
+            }
+          ]
+        },
+        "sc8": {
+          "successes": 3,
+          "total_calls": 136,
+          "total_steps": 17,
+          "episodes": [
+            {
+              "task_id": "minihouse_0",
+              "success": true,
+              "steps": 6,
+              "calls": 48,
+              "step_details": [
+                {
+                  "step": 1,
+                  "action": "go to hallway",
+                  "calls": 8,
+                  "agreement": 1.0
+                },
+                {
+                  "step": 2,
+                  "action": "go to bathroom",
+                  "calls": 8,
+                  "agreement": 1.0
+                },
+                {
+                  "step": 3,
+                  "action": "take towel from towel_rack",
+                  "calls": 8,
+                  "agreement": 1.0
+                },
+                {
+                  "step": 4,
+                  "action": "go to hallway",
+                  "calls": 8,
+                  "agreement": 1.0
+                },
+                {
+                  "step": 5,
+                  "action": "go to office",
+                  "calls": 8,
+                  "agreement": 0.75
+                },
+                {
+                  "step": 6,
+                  "action": "put towel in chair",
+                  "calls": 8,
+                  "agreement": 1.0
+                }
+              ]
+            },
+            {
+              "task_id": "minihouse_1",
+              "success": true,
+              "steps": 5,
+              "calls": 40,
+              "step_details": [
+                {
+                  "step": 1,
+                  "action": "go to living_room",
+                  "calls": 8,
+                  "agreement": 1.0
+                },
+                {
+                  "step": 2,
+                  "action": "take book from coffee_table",
+                  "calls": 8,
+                  "agreement": 1.0
+                },
+                {
+                  "step": 3,
+                  "action": "go to bedroom",
+                  "calls": 8,
+                  "agreement": 1.0
+                },
+                {
+                  "step": 4,
+                  "action": "open drawer",
+                  "calls": 8,
+                  "agreement": 1.0
+                },
+                {
+                  "step": 5,
+                  "action": "put book in drawer",
+                  "calls": 8,
+                  "agreement": 1.0
+                }
+              ]
+            },
+            {
+              "task_id": "minihouse_2",
+              "success": true,
+              "steps": 6,
+              "calls": 48,
+              "step_details": [
+                {
+                  "step": 1,
+                  "action": "go to hallway",
+                  "calls": 8,
+                  "agreement": 1.0
+                },
+                {
+                  "step": 2,
+                  "action": "go to bathroom",
+                  "calls": 8,
+                  "agreement": 0.75
+                },
+                {
+                  "step": 3,
+                  "action": "take towel from towel_rack",
+                  "calls": 8,
+                  "agreement": 1.0
+                },
+                {
+                  "step": 4,
+                  "action": "go to hallway",
+                  "calls": 8,
+                  "agreement": 1.0
+                },
+                {
+                  "step": 5,
+                  "action": "go to office",
+                  "calls": 8,
+                  "agreement": 1.0
+                },
+                {
+                  "step": 6,
+                  "action": "put towel in desk",
+                  "calls": 8,
+                  "agreement": 1.0
+                }
+              ]
+            }
+          ],
+          "step_agreements": [
+            {
+              "agreement": 1.0,
+              "eventual_success": true
+            },
+            {
+              "agreement": 1.0,
+              "eventual_success": true
+            },
+            {
+              "agreement": 1.0,
+              "eventual_success": true
+            },
+            {
+              "agreement": 1.0,
+              "eventual_success": true
+            },
+            {
+              "agreement": 0.75,
+              "eventual_success": true
+            },
+            {
+              "agreement": 1.0,
+              "eventual_success": true
+            },
+            {
+              "agreement": 1.0,
+              "eventual_success": true
+            },
+            {
+              "agreement": 1.0,
+              "eventual_success": true
+            },
+            {
+              "agreement": 1.0,
+              "eventual_success": true
+            },
+            {
+              "agreement": 1.0,
+              "eventual_success": true
+            },
+            {
+              "agreement": 1.0,
+              "eventual_success": true
+            },
+            {
+              "agreement": 1.0,
+              "eventual_success": true
+            },
+            {
+              "agreement": 0.75,
+              "eventual_success": true
+            },
+            {
+              "agreement": 1.0,
+              "eventual_success": true
+            },
+            {
+              "agreement": 1.0,
+              "eventual_success": true
+            },
+            {
+              "agreement": 1.0,
+              "eventual_success": true
+            },
+            {
+              "agreement": 1.0,
+              "eventual_success": true
+            }
+          ]
+        },
+        "trace4": {
+          "successes": 3,
+          "total_calls": 36,
+          "total_steps": 17,
+          "episodes": [
+            {
+              "task_id": "minihouse_0",
+              "success": true,
+              "steps": 6,
+              "calls": 14,
+              "step_details": [
+                {
+                  "step": 1,
+                  "action": "go to hallway",
+                  "calls": 2,
+                  "agreement": 1.0
+                },
+                {
+                  "step": 2,
+                  "action": "go to bathroom",
+                  "calls": 2,
+                  "agreement": 1.0
+                },
+                {
+                  "step": 3,
+                  "action": "take towel from towel_rack",
+                  "calls": 2,
+                  "agreement": 1.0
+                },
+                {
+                  "step": 4,
+                  "action": "go to hallway",
+                  "calls": 2,
+                  "agreement": 1.0
+                },
+                {
+                  "step": 5,
+                  "action": "go to office",
+                  "calls": 4,
+                  "agreement": 0.5
+                },
+                {
+                  "step": 6,
+                  "action": "put towel in chair",
+                  "calls": 2,
+                  "agreement": 1.0
+                }
+              ]
+            },
+            {
+              "task_id": "minihouse_1",
+              "success": true,
+              "steps": 5,
+              "calls": 10,
+              "step_details": [
+                {
+                  "step": 1,
+                  "action": "go to living_room",
+                  "calls": 2,
+                  "agreement": 1.0
+                },
+                {
+                  "step": 2,
+                  "action": "take book from coffee_table",
+                  "calls": 2,
+                  "agreement": 1.0
+                },
+                {
+                  "step": 3,
+                  "action": "go to bedroom",
+                  "calls": 2,
+                  "agreement": 1.0
+                },
+                {
+                  "step": 4,
+                  "action": "open drawer",
+                  "calls": 2,
+                  "agreement": 1.0
+                },
+                {
+                  "step": 5,
+                  "action": "put book in drawer",
+                  "calls": 2,
+                  "agreement": 1.0
+                }
+              ]
+            },
+            {
+              "task_id": "minihouse_2",
+              "success": true,
+              "steps": 6,
+              "calls": 12,
+              "step_details": [
+                {
+                  "step": 1,
+                  "action": "go to hallway",
+                  "calls": 2,
+                  "agreement": 1.0
+                },
+                {
+                  "step": 2,
+                  "action": "go to bathroom",
+                  "calls": 2,
+                  "agreement": 1.0
+                },
+                {
+                  "step": 3,
+                  "action": "take towel from towel_rack",
+                  "calls": 2,
+                  "agreement": 1.0
+                },
+                {
+                  "step": 4,
+                  "action": "go to hallway",
+                  "calls": 2,
+                  "agreement": 1.0
+                },
+                {
+                  "step": 5,
+                  "action": "go to office",
+                  "calls": 2,
+                  "agreement": 1.0
+                },
+                {
+                  "step": 6,
+                  "action": "put towel in desk",
+                  "calls": 2,
+                  "agreement": 1.0
+                }
+              ]
+            }
+          ],
+          "step_agreements": [
+            {
+              "agreement": 1.0,
+              "eventual_success": true
+            },
+            {
+              "agreement": 1.0,
+              "eventual_success": true
+            },
+            {
+              "agreement": 1.0,
+              "eventual_success": true
+            },
+            {
+              "agreement": 1.0,
+              "eventual_success": true
+            },
+            {
+              "agreement": 0.5,
+              "eventual_success": true
+            },
+            {
+              "agreement": 1.0,
+              "eventual_success": true
+            },
+            {
+              "agreement": 1.0,
+              "eventual_success": true
+            },
+            {
+              "agreement": 1.0,
+              "eventual_success": true
+            },
+            {
+              "agreement": 1.0,
+              "eventual_success": true
+            },
+            {
+              "agreement": 1.0,
+              "eventual_success": true
+            },
+            {
+              "agreement": 1.0,
+              "eventual_success": true
+            },
+            {
+              "agreement": 1.0,
+              "eventual_success": true
+            },
+            {
+              "agreement": 1.0,
+              "eventual_success": true
+            },
+            {
+              "agreement": 1.0,
+              "eventual_success": true
+            },
+            {
+              "agreement": 1.0,
+              "eventual_success": true
+            },
+            {
+              "agreement": 1.0,
+              "eventual_success": true
+            },
+            {
+              "agreement": 1.0,
+              "eventual_success": true
+            }
+          ]
+        },
+        "trace8": {
+          "successes": 3,
+          "total_calls": 40,
+          "total_steps": 17,
+          "episodes": [
+            {
+              "task_id": "minihouse_0",
+              "success": true,
+              "steps": 6,
+              "calls": 18,
+              "step_details": [
+                {
+                  "step": 1,
+                  "action": "go to hallway",
+                  "calls": 2,
+                  "agreement": 1.0
+                },
+                {
+                  "step": 2,
+                  "action": "go to bathroom",
+                  "calls": 2,
+                  "agreement": 1.0
+                },
+                {
+                  "step": 3,
+                  "action": "take towel from towel_rack",
+                  "calls": 2,
+                  "agreement": 1.0
+                },
+                {
+                  "step": 4,
+                  "action": "go to hallway",
+                  "calls": 2,
+                  "agreement": 1.0
+                },
+                {
+                  "step": 5,
+                  "action": "go to office",
+                  "calls": 8,
+                  "agreement": 0.75
+                },
+                {
+                  "step": 6,
+                  "action": "put towel in chair",
+                  "calls": 2,
+                  "agreement": 1.0
+                }
+              ]
+            },
+            {
+              "task_id": "minihouse_1",
+              "success": true,
+              "steps": 5,
+              "calls": 10,
+              "step_details": [
+                {
+                  "step": 1,
+                  "action": "go to living_room",
+                  "calls": 2,
+                  "agreement": 1.0
+                },
+                {
+                  "step": 2,
+                  "action": "take book from coffee_table",
+                  "calls": 2,
+                  "agreement": 1.0
+                },
+                {
+                  "step": 3,
+                  "action": "go to bedroom",
+                  "calls": 2,
+                  "agreement": 1.0
+                },
+                {
+                  "step": 4,
+                  "action": "open drawer",
+                  "calls": 2,
+                  "agreement": 1.0
+                },
+                {
+                  "step": 5,
+                  "action": "put book in drawer",
+                  "calls": 2,
+                  "agreement": 1.0
+                }
+              ]
+            },
+            {
+              "task_id": "minihouse_2",
+              "success": true,
+              "steps": 6,
+              "calls": 12,
+              "step_details": [
+                {
+                  "step": 1,
+                  "action": "go to hallway",
+                  "calls": 2,
+                  "agreement": 1.0
+                },
+                {
+                  "step": 2,
+                  "action": "go to bathroom",
+                  "calls": 2,
+                  "agreement": 1.0
+                },
+                {
+                  "step": 3,
+                  "action": "take towel from towel_rack",
+                  "calls": 2,
+                  "agreement": 1.0
+                },
+                {
+                  "step": 4,
+                  "action": "go to hallway",
+                  "calls": 2,
+                  "agreement": 1.0
+                },
+                {
+                  "step": 5,
+                  "action": "go to office",
+                  "calls": 2,
+                  "agreement": 1.0
+                },
+                {
+                  "step": 6,
+                  "action": "put towel in desk",
+                  "calls": 2,
+                  "agreement": 1.0
+                }
+              ]
+            }
+          ],
+          "step_agreements": [
+            {
+              "agreement": 1.0,
+              "eventual_success": true
+            },
+            {
+              "agreement": 1.0,
+              "eventual_success": true
+            },
+            {
+              "agreement": 1.0,
+              "eventual_success": true
+            },
+            {
+              "agreement": 1.0,
+              "eventual_success": true
+            },
+            {
+              "agreement": 0.75,
+              "eventual_success": true
+            },
+            {
+              "agreement": 1.0,
+              "eventual_success": true
+            },
+            {
+              "agreement": 1.0,
+              "eventual_success": true
+            },
+            {
+              "agreement": 1.0,
+              "eventual_success": true
+            },
+            {
+              "agreement": 1.0,
+              "eventual_success": true
+            },
+            {
+              "agreement": 1.0,
+              "eventual_success": true
+            },
+            {
+              "agreement": 1.0,
+              "eventual_success": true
+            },
+            {
+              "agreement": 1.0,
+              "eventual_success": true
+            },
+            {
+              "agreement": 1.0,
+              "eventual_success": true
+            },
+            {
+              "agreement": 1.0,
+              "eventual_success": true
+            },
+            {
+              "agreement": 1.0,
+              "eventual_success": true
+            },
+            {
+              "agreement": 1.0,
+              "eventual_success": true
+            },
+            {
+              "agreement": 1.0,
+              "eventual_success": true
+            }
+          ]
+        }
+      },
+      "n_tasks": 3
+    }
+  ]
+}
